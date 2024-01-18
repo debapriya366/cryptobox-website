@@ -63,25 +63,6 @@ Parameters:
 |----------|----------|----------|
 | boxId | uint256 | The ID of the box to sell tokens from |
 | tokenSellAmount | uint256 | The amount of tokens the user wants to sell |
-
-<br/>
-
-### createBox
-
-    createBox(Token[] memory tokens) external returns(uint boxId)
-
-The function takes an array of token distributions as input and creates a new investment box with the specified distribution.
-
-Parameters:
-| Name | Type | Description |
-|----------|----------|----------|
-| tokens | Token[] | An array of Token structs, representing the composition of the investment box. |
-
-Returns:
-| Name | Type | Description |
-|----------|----------|----------|
-| boxId | uint | ID of the box that has been created |
-
 <br/>
 
 ## Public Functions
